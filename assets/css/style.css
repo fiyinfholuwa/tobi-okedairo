@@ -18,13 +18,15 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: linear-gradient(to right, rgba(43,43,43, 0.4), rgba(43,43,43, 0.5)), url("../img/bg.jpg") top right no-repeat;
+  background: linear-gradient(to right, rgba(43,43,43, 0.4), rgba(43,43,43, 0.5)), url("../img/bg.jpg"),  no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
+  width: 100%;
+  background-position: 70% 30%;
 }
 @media (min-width: 1024px) {
   body::before {
